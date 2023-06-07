@@ -1,0 +1,20 @@
+{
+  "name": "mobster-loga",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Perolov89/mobster-loga.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Perolov89/mobster-loga/issues"
+  },
+  "homepage": "https://github.com/Perolov89/mobster-loga#readme"
+}
