@@ -1,20 +1,18 @@
 {
-  "name": "mobster-loga",
-  "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "name": "mobster-loga-frontend",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages --dist dist"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/Perolov89/mobster-loga.git"
-  },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/Perolov89/mobster-loga/issues"
-  },
-  "homepage": "https://github.com/Perolov89/mobster-loga#readme"
+  "homepage": "https://Perolov89.github.io/mobster-loga",
+  "devDependencies": {
+    "gh-pages": "^5.0.0",
+    "vite": "^4.3.9"
+  }
 }
